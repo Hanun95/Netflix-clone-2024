@@ -15,4 +15,6 @@ box-sizing: border-box;
 }
 body {
   background: #111;
+  font-family: var(--font-second-base);
+  
 }
