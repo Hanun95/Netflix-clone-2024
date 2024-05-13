@@ -1,21 +1,24 @@
 .header_outer_container {
-  position: sticky;
+  position: fixed;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: rgb (148, 132, 132); */
-  background-color: rgb(20, 20, 20);
-  /* background-color: transparent; */
+  /* background-color: rgb(20, 20, 20); */
+  background-color: transparent;
   height: 10vh;
   color: white;
   transition: all 0.5s;
   transition-timing-function: ease-in;
   z-index: 1;
+  width: 100%;
+  margin-top: -10px;
   /* background-color: red; */
 }
 .nav__black {
   background-color: rgb(20, 20, 20);
+  background-color: transparent;
 }
 
 .header_container {
@@ -36,7 +39,7 @@
 
 }
 .header_right ul{
-    /* width: 140%; */
+    width: 140%;
     display: flex;
     justify-content: space-between;
     align-items: center;
